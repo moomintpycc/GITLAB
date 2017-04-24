@@ -9,7 +9,7 @@ int main()
     scanf("%d %d", &firstNumber, &secondNumber);
 
     // sum of two numbers in stored in variable sumOfTwoNumbers
-    sumOfTwoNumbers = firstNumber + secondNumber;
+    sumOfTwoNumbers = secondNumber + firstNumber;
 
     // Displays sum
     printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
